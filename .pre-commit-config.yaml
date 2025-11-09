@@ -1,5 +1,5 @@
 default_language_version:
-  python: python3.12
+  python: python3
 
 ci:
   autofix_prs: true
@@ -38,7 +38,7 @@ repos:
         args: ["--print-width=120"]
 
   - repo: https://github.com/executablebooks/mdformat
-    rev: 1.0.0
+    rev: 0.7.22
     hooks:
       - id: mdformat
         args: ["--number"]
